@@ -1,0 +1,13 @@
+{
+    "name": "Anomaly",
+    "alias": "anomaly",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Anomaly\\Providers\\AnomalyServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
