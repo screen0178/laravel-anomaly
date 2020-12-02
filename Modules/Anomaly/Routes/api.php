@@ -20,3 +20,4 @@ Route::middleware('auth:api')->get('/anomaly', function (Request $request) {
 
 // Route::apiResource('anomaly', AnomalyController::class);
 Route::apiResource('anomaly', AnomalyController::class)->middleware('auth:api');
+Route::apiResource('raw', KaiRawController::class)->middleware('auth:api');
